@@ -11,7 +11,7 @@ import javax.jms.TextMessage;
 
 /**
  *
- * @author sarun
+ * @author pp
  */
 public class TextListener implements MessageListener {
     @Override
