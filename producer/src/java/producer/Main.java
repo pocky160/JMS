@@ -19,7 +19,7 @@ import javax.jms.Topic;
 
 /**
  *
- * @author sarun
+ * @author pp
  */
 public class Main {
     @Resource(mappedName = "jms/SimpleJMSTopic")
