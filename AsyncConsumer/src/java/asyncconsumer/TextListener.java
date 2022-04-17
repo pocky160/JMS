@@ -23,7 +23,7 @@ public class TextListener implements MessageListener {
                 msg = (TextMessage) message;
                 System.out.println("UPDATE !!: " + msg.getText());
             } else {
-                System.err.println("Message is not a TextMessage");
+                System.err.println("Message is not a TextMessage o10");
             }
         } catch (JMSException e) {
             System.err.println("JMSException in onMessage(): " + e.toString());
